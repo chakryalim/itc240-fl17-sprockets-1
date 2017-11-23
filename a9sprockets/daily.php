@@ -86,7 +86,7 @@ switch($day)
 ?>
 
     ?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 <h2><b>Daily Coffee Specials</b></h2>
 
 <p><a href="?day=Sunday">Sunday</a></p>
@@ -106,4 +106,4 @@ switch($day)
 
 
 
-<?php include 'includes/footer.php'?>
+<?php get_footer()?>
